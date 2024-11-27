@@ -1,8 +1,9 @@
 # 4 Axis Polar 3D Printer
 
-Check out my youtube video for more details:
-
 This is my 4 axis, polar, "core-RΘ" 3D printer – an entirely new type of multi axis 3D printer designed from the ground up. 
+
+Check out my youtube video for more details!
+
 
 You can view the 3d model [online](https://a360.co/3VdXkRY) to see how to assemble the printer. Everything is 3D printable, however I got the extruder mount made out of metal by JLCPCB as there is quite a bit of torque on that part. I've also included the gerber files to make your own PCB buildplate, but a sheet of MDF wood would also work.
 
