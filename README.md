@@ -8,6 +8,8 @@ Check out my youtube video to see it in action!
 ### Slicer
 A multi axis printer is pretty hopeless without a non-planar slicer, which is why I built this quick [radial slicer](https://github.com/jyjblrd/Radial_Non_Planar_Slicer) for the printer. This leverages the printer's rotating nozzle to print simple parts without supports, but there are some limitations to it which I cover in the YouTube video. I'm also working on an optimization based slicer which will be able to print any object without support so stay tuned for that!
 
+<img src="https://github.com/user-attachments/assets/190a966d-61a4-4c94-bd4a-7c1860c525db" width="500" />
+
 ### Assembly
 You can view the 3d model [online](https://a360.co/3VdXkRY) to see how to assemble the printer. Everything is 3D printable, however I got the extruder mount made out of metal by JLCPCB as there is quite a bit of torque on that part. I've also included the gerber files to make your own PCB buildplate, but a sheet of MDF wood would also work.
 
