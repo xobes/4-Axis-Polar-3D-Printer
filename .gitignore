@@ -2,3 +2,8 @@
 
 # FreeCAD backup files
 *.FCBak
+# FreeCAD crash files
+*.FCStd.*
+
+freecad_files/backups
+freecad_files/test_files
