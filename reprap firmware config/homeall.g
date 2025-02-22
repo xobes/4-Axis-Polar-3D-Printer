@@ -1,11 +1,6 @@
 ; homeall.g
 ; called to home all axes
 ;
-
-G91                ; relative positioning
-G1 H2 Z10 F12000   ; lift Z relative to current position
-G90
-
 if move.kinematics.name == "Polar"
     G91
 
@@ -77,9 +72,9 @@ if move.kinematics.name == "Polar"
     G1 H2 U-90 V90 F20000 
     G92 U0 V0
 else
-    M98 P"homeb.g"
-    M98 P"homex.g"
     M98 P"homey.g"
     M98 P"homec.g"
+    M98 P"homeb.g"
+    M98 P"homex.g"
     M98 P"homez.g"
 
