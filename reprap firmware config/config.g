@@ -21,7 +21,8 @@ M80 C"PSON"
 M84 S30                                              ; Set idle timeout
 
 ; Configure printer as 4-axis variant:
-M98 P"to4axis.g" 
+; M98 P"to4axis.g" ; the gcode examples require polar...
+M98 P"topolar.g" 
 
 ; Accelerometer -- OPTIONAL
 ; M955 P0 C"PB_2+PA_10" I46

@@ -17,7 +17,7 @@ M350 C16       X16       Z16      B16       E16      I1  ; configure microsteppi
 M92  C88.8888  X100.00   Z400.00  B100.00   E932.00      ; set steps per mm
 M566 C600.00   X600.00   Z600.00  B600.00   E300.00      ; set maximum instantaneous speed changes (mm/min)
 M203 C21600.00 X20000.00 Z8000.00 B21600.00 E3600.00     ; set maximum speeds (mm/min)
-M201 C2000.00  X5000.00  Z1500.00 B2000.00  E2000.00     ; set accelerations (mm/s^2)
+M201 C2000.00  X2000.00  Z1500.00 B2000.00  E2000.00     ; set accelerations (mm/s^2)
 M906 C1500     X1500     Z1000    B1500     E800     I30 ; set motor currents (mA) and motor idle factor (in percent)
 
 ; Axis Limits
